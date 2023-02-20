@@ -235,7 +235,7 @@ body.dark-theme {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
+/* responsive mobile menu */
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -248,7 +248,7 @@ body.dark-theme {
     transition: top 0.5s;
   }
 }
-
+/* end res */
 .nav__list {
   display: flex;
   flex-direction: column;
@@ -1074,7 +1074,7 @@ body.dark-theme {
   .footer__social{
     font-size: 1.5rem;
   }
-  .footer_info{
+  .footer__info{
     flex-direction: row;
     justify-content: space-between;
     margin-top:8.5rem;
@@ -1125,6 +1125,5 @@ body.dark-theme {
     bottom: -15rem;
     margin: 0 auto;
     width: 150px;
-    
   }
 }
